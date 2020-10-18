@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SampleService
+  description: A sample service
+  annotations: 
+    github.com/project-slug: patnaikshekhar/backstage-sample
+    backstage.io/github-actions-id: patnaikshekhar/backstage-sample
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Shekhar
